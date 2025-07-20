@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Home - Yaku Japanese Grill - www.yakujapanesegrill.com">
+<meta property="og:image" content="img/cover3.png">
+<meta property="og:description" content="Yaku Japanese Grill is located at the 5th Floor, ADB wing of The Podium Mall in Ortigas Center, Barangay Wackwack, Mandaluyong City. Yaku becomes a neighborhood gathering place for meeting friends and family. It is also the meeting place for business gathering of the high profile ADB crowd, as well as the Ortigas Business District." />
+
+<!-- Latest compiled and minified CSS -->
+<link rel="icon" href="img/yaku_fav.png" type="image/icon type">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+<!-- Include HTML -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="js/float-panel.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+<style>
+			.wrapper {
+			position:relative;
+			width: 100%;
+			height: auto;
+			z-index:0;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: white;
+			background-color:#000000;
+			padding-top:150px;	
+			}
+			.wrapper h3 {
+			font-weight: 100;
+   			font-size: 20px;
+   	    	line-height: 1.6;
+			font-family:"AvenirLight";
+			-webkit-font-smoothing: antialiased;
+    		text-rendering: geometricPrecision;
+			margin-left: 0%;
+			margin-right:0%;
+			color:#FFFFFF;
+			}
+			.wrapper2 {
+			position:relative;
+			width: 100%;
+			height: auto;
+			background-color:#1D1D1D;
+			z-index:0;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+			padding-top: 100px;
+			padding-bottom: 20px;
+            flex-direction: column;
+			vertical-align:text-top;
+			}
+			.wrapper2 h5 {
+			font-weight: 100;
+   			font-size: 24px;
+    		line-height: 1.6;
+			-webkit-font-smoothing: antialiased;
+    		text-rendering: geometricPrecision;
+			margin-left: 0%;
+			margin-right:0%;
+			color:#FFFFFF;
+			}
+			#home {
+			background-color:#000000;
+			height:auto;
+			}
+			.spikes {
+			  position: relative;
+			  background: #000;
+			  height: 10vh;
+			}
+			
+			.spikes::after {
+			  content: '';
+			  position: absolute;
+			  right: 0;
+			  left: -0%;
+			  top: 100%;
+			  z-index: 10;
+			  display: block;
+			  height: 25px;
+			  background-size: 25px 100%;
+			  background-image: linear-gradient(135deg, #000 25%, transparent 0%), linear-gradient(225deg, #000 25%, transparent 0%);
+				  background-position: 0 0;
+			}
+			.wrapper3 {
+			position:relative;
+			width: 100%;
+			z-index:0;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            flex-direction: column;
+            color: white;
+			vertical-align:text-top;
+			background-color:#000000;
+			padding-top: 100px;
+			padding-bottom: 50px;
+			}
+			.wrapper3 h1 {
+			font-weight: 100;
+    		line-height: 1.6;
+			font-family:"AvenirLight";
+			-webkit-font-smoothing: antialiased;
+    		text-rendering: geometricPrecision;
+			margin-left: 0%;
+			margin-right:0%;
+			color:#FFFFFF;
+			}
+			.wrapper3 h3 {
+			font-weight: 100;
+   			font-size: 24px;
+    		line-height: 1.6;
+			font-family:"AvenirLight";
+			-webkit-font-smoothing: antialiased;
+    		text-rendering: geometricPrecision;
+			margin-left: 0%;
+			margin-right:0%;
+			color:#FFFFFF;
+			}
+			triangle {
+			  position: relative;
+			  background: #fff;
+			  height: 50vh;
+			}
+			
+			.spikes2 {
+			  position: relative;
+			  background: #fff;
+			  height: 10vh;
+			}
+			
+			.spikes2::after {
+			  content: '';
+			  position: absolute;
+			  right: 0;
+			  left: -0%;
+			  top: 100%;
+			  z-index: 10;
+			  display: block;
+			  height: 25px;
+			  background-size: 25px 100%;
+			  background-image: linear-gradient(135deg, #fff 25%, transparent 0%), linear-gradient(225deg, #fff 25%, transparent 0%);
+			  background-position: 0 0;
+}
+</style>  
+<title>Home - Yaku Japanese Grill - www.yakujapanesegrill.com</title></head>
+<body>
+<div id="home">
+<nav class="navbar navbar-expand-lg navbar-primary fixed-top" style="background-color: #000;">
+  <!-- Brand -->
+
+  <!-- Navbar links -->	
+  <div class="navbar-collapse  navbar-nav justify-content-center" id="myMenu" >
+    <ul class="navbar nav-pills">
+			<li class="nav-item">
+				<a class="nav-link text-center" href="index.html">HOME</a>
+            </li>
+			<li class="nav-item ">
+				<a class="nav-link text-center" href="menu.html">MENU</a>
+	        </li>
+	</ul>
+  </div>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#myMenu" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+<div class="wrapper">
+				<div class="row mx-0">
+                            	<div class="col-md-12 d-flex align-items-center justify-content-center">
+                                        <img src="img/yaku-logo-gradient.png" class="img-fluid" data-aos="fade-up" data-aos-offset="300" data-aos-duration="500"/><p><p>
+                                </div> 
+				</div>
+                <div class="row mx-0">
+                            	<div class="col-md-12 text-center d-block">
+                                    <h1> Our Story</h1><p><p>
+                                    <p><p><h3>It all began in 1998, when four young men felt the need to have an authentic Yakitori restaurant in the country.  Opening its first restaurant in the old Pearl Plaza area.  The restaurant opened to excellent reviews especially to the well-travelled who had been searching for a taste of good Yakitori in the country.  Enter 2001, when The Podium Mall opened its doors to public, this is where the current restaurant has called its home for over 20 years.  We own the distinction of having the longest tenure of all restaurants in The Podium Mall having opened on Day 1 of the old site and remaining open to this day in “The New Podium Mall.”<p><p>
+ 
+After more than 25 years in the business, we continue to be committed to offering Japanese comfort food at affordable prices while using high quality ingredients.<p><p>
+
+Come visit us and allow us to put a smile on your tummy!!</h3>
+
+                                    
+                                </div>
+                 </div>
+
+</div>
+</div>
+  
+<div id="contact" class="wrapper3">
+                          <div class="row mx-auto">
+
+                            	<div class="container">
+                          				<h1 class="mx-auto text-center">Contact Us</h1><br />
+                                </div> 
+                                <div class="embed-responsive embed-responsive-1by1">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.930520515434!2d121.0592576!3d14.585816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c816f88dce93%3A0x8497096a897a0028!2sYaku%20Japanese%20Grill!5e0!3m2!1sen!2sph!4v1717591075645!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>       
+                            	<div class="col-md-12 text-center mx-auto d-block">
+                                      <p><h1>Yaku Japanese Grill</h1>
+                                        <h3>JAPANESE RESTAURANT <br />
+                                                <i class="fa fa-map-marker text-white"></i> 5th Level The Podium, 12 ADB Ave, <br>
+                                                Ortigas Center, Mandaluyong, 1605 Metro Manila Philippines<br>
+                                                <i class="fa fa-phone-square text-white"></i>+63928 512 1234<br>
+                                                <i class="fa fa-envelope text-white" text-primary></i>  Email: <a href="mailto:info@yakujapanesegrill.com" style="color:#FFFFFF">info@yakujapanesegrill.com</a><p></h3>
+                                </div>
+                          </div>
+</div>
+
+
+
+<script>
+  AOS.init();
+</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/script.js"></script>
+
+
+</head>
+
+</body>
+</html>

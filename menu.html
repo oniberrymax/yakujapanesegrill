@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Home - Yaku Japanese Grill - www.yakujapanesegrill.com">
+<meta property="og:image" content="img/cover3.png">
+<meta property="og:description" content="Yaku Japanese Grill is located at the 5th Floor, ADB wing of The Podium Mall in Ortigas Center, Barangay Wackwack, Mandaluyong City. Yaku becomes a neighborhood gathering place for meeting friends and family. It is also the meeting place for business gathering of the high profile ADB crowd, as well as the Ortigas Business District." />
+
+<!-- Latest compiled and minified CSS -->
+<link rel="icon" href="img/yaku_fav.png" type="image/icon type">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+<!-- Include HTML -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="js/float-panel.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+<style>
+body {
+background-color:#000000;
+}
+.yakubody {
+			position:relative;
+			width: 100%;
+			height: auto;
+			background-color: #000000;
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  background-size: cover;
+			  -o-background-size: cover;
+			}
+			.wrapper {
+			position:relative;
+			width: 100%;
+			height: 700px;
+			z-index:0;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            flex-direction: column;
+            color: white;
+			vertical-align:text-top;
+			background-color:#000000;
+			}
+			.wrapper2 {
+			position:relative;
+			width: 100%;
+			height: auto;
+			background-color:#fff;
+			z-index:0;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            flex-direction: column;
+            color: black;
+			vertical-align:text-top;
+			}
+			.wrapper2 h5 {
+			font-weight: 100;
+   			font-size: 24px;
+    		line-height: 1.6;
+			font-family:"AvenirLight";
+			-webkit-font-smoothing: antialiased;
+    		text-rendering: geometricPrecision;
+			margin-left: 0%;
+			margin-right:0%;
+			}
+			#home {
+			background-color:#000000;
+			height:auto;
+			}
+			.spikes {
+			  position: relative;
+			  background: #000;
+			  height: 10vh;
+			}
+			
+			.spikes::after {
+			  content: '';
+			  position: absolute;
+			  right: 0;
+			  left: -0%;
+			  top: 100%;
+			  z-index: 10;
+			  display: block;
+			  height: 25px;
+			  background-size: 25px 100%;
+			  background-image: linear-gradient(135deg, #000 25%, transparent 0%), linear-gradient(225deg, #000 25%, transparent 0%);
+			  background-position: 0 0;
+			}
+</style>  
+<title>Home - Yaku Japanese Grill - www.yakujapanesegrill.com</title></head>
+<body>
+<div id="home">
+<nav class="navbar navbar-expand-lg navbar-primary py-2" style="background-color: #000;">
+  <!-- Brand -->
+
+  <!-- Navbar links -->	
+  <div class="navbar-collapse  navbar-nav justify-content-center" id="myMenu" >
+    <ul class="navbar nav-pills">
+			<li class="nav-item">
+				<a class="nav-link text-center" href="index.html">HOME</a>
+            </li>
+			<li class="nav-item ">
+				<a class="nav-link text-center" href="menu.html">MENU</a>
+	        </li>
+	</ul>
+  </div>
+</nav>
+</div>
+<div id="yakubody" class="yakubody">
+	<div id="menu" class="carousel slide" data-ride="false" data-wrap="false" data-interval="false" data-keyboard="true">
+
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#menu" data-slide-to="0" class="active"></li>
+                <li data-target="#menu" data-slide-to="1" ></li>
+                <li data-target="#menu" data-slide-to="2"></li>
+                <li data-target="#menu" data-slide-to="3"></li>
+                <li data-target="#menu" data-slide-to="4"></li>
+                <li data-target="#menu" data-slide-to="5"></li>
+                <li data-target="#menu" data-slide-to="6"></li>
+                <li data-target="#menu" data-slide-to="7"></li>
+                <li data-target="#menu" data-slide-to="8"></li>
+                <li data-target="#menu" data-slide-to="9"></li>
+                <li data-target="#menu" data-slide-to="10"></li>
+                <li data-target="#menu" data-slide-to="11"></li>
+                <li data-target="#menu" data-slide-to="12"></li>
+                <li data-target="#menu" data-slide-to="13"></li>
+                <li data-target="#menu" data-slide-to="14"></li>
+                <li data-target="#menu" data-slide-to="15"></li>
+                <li data-target="#menu" data-slide-to="16"></li>
+              </ul>
+            
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-wrap="false">
+                	<img id="mymenu" src="img/menu/3.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/4.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-warap="false">
+                	<img id="mymenu" src="img/menu/5.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/6.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/7.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-warap="false">
+                	<img id="mymenu" src="img/menu/8.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/9.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/10.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-warap="false">
+                	<img id="mymenu" src="img/menu/11.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/12.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/12-1.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-warap="false">
+                	<img id="mymenu" src="img/menu/13.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/14.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/15.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-warap="false">
+                	<img id="mymenu" src="img/menu/16.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/17.jpg" class="img-fluid mx-auto d-block">
+                </div>
+                <div class="carousel-item" data-wrap="false">
+                	<img id="mymenu" src="img/menu/18.jpg" class="img-fluid mx-auto d-block">
+                </div>
+              </div>
+   </div>
+            				   
+              <!-- Left and right controls -->
+             <a class="carousel-control-prev" href="#menu" role="button" data-slide="prev">
+				<i style="color:#fff; text-decoration: none;" class="fa fa-chevron-circle-left fa-2x"></i>             </a>
+             <a class="carousel-control-next" href="#menu" role="button" data-slide="next">
+				<i style="color:#fff; text-decoration: none;" class="fa fa-chevron-circle-right fa-2x"></i>             </a>            
+
+</div>
+
+<script>
+$('.carousel').carousel({
+  interval: false
+  keyboard: true
+})
+</script>
+<script>
+  AOS.init();
+</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/script.js"></script>
+<script>
+includeHTML();
+</script>
+<script>
+// Add scrollspy to <body>
+$('body').scrollspy({target: ".navbar", offset: 50});
+
+// Add smooth scrolling on all links inside the navbar
+$("#myMenu a").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+
+  } // End if
+
+});
+</script>
+</head>
+
+</body>
+</html>
